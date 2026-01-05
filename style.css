@@ -210,20 +210,21 @@ nav img{
     #hero-container{
         flex-wrap: wrap;
         flex-shrink: inherit;
-        margin-top: -180px;
+        margin-top: -80px;
         height: auto;
         background-image: url(heromobile2.png);
         background-size: cover;
         background-repeat: no-repeat;
+
     }
     .structure{
-        font-size: 3.5rem;
+        font-size: 3.1rem;
     }
     .tech-text{
-        font-size: 4rem;
+        font-size: 3.6rem;
     }
     .tech-text1{
-        font-size: 4rem;
+        font-size: 3.6rem;
     }
     
     .stunning{
@@ -406,13 +407,14 @@ nav img{
     }
     .serv-box-container{
         flex-wrap: wrap;
-        /* gap: 0.5%; */
+
     }
     .serv-box{
         width: 100%;
+        margin-bottom: 3rem;
     }
     .servImage img{
-        height: 50vh;
+        height: 40vh;
     }
     
 }
@@ -884,6 +886,7 @@ footer{
         width: 100%;
         justify-content: center;
         align-items: center;
+        text-align: center;
     }
     .footer-cont{
         width: 30%;
