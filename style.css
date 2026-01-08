@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: ubuntu;
+    font-family: ubuntu, sans-serif;
      
 }
 
@@ -782,6 +782,37 @@ nav img{
     box-shadow: grey 2px 2px 7px 7px;
     transform: scale(1.1);
 }
+.our-portfolio{
+    width: 100%;
+    padding: 3rem 6%;
+}
+.portfoli{
+    display: flex;
+    width: 100%;
+    padding: 4rem 6%;
+    gap: 0.6%;
+    flex-wrap: wrap;
+    background: #ECEFF1;
+}
+.port-para{
+    width: 60%;
+    margin-top: 1rem;
+}
+.portfo{
+    width: 32.5%;
+    transition: all 1s ease;
+    border: solid 1px #081A2E;
+    margin-bottom: 1rem;
+}
+.portfo img{
+    width: 100%;
+}
+.portfo:hover{
+    transform: scale(1.05);
+}
+.flyer{
+    width: 24.2%;
+}
 
 @media (min-width:300px) and (max-width:900px){
     .portfolio{
@@ -806,7 +837,67 @@ nav img{
     #our-portfolio h5{
         font-size: 1.8rem;
     }
+    .port-para{
+        width: 100%;
+    }
+    .portfo{
+        width: 100%;
+    }
 }
+
+/* ................contact us page............. */
+#contact-page{
+    background-image: linear-gradient(to bottom right,#000102, #729101  );
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    padding: 0 6%;
+    color: #D2FF33;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-cont{
+    background: #ECEFF1;
+    padding: 0 6%;
+    height: 80vh;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+.ready-to{
+    color: #081A2E;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.ready-to h3{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.contact-form{
+    width: 60%;
+}
+.contact-form form{
+    display: flex;
+    flex-direction: column;
+    
+}
+input {
+    display: inline-block;
+    width: 50%;
+    height: 2.5rem;
+    outline-style: none;
+    border: none;
+    font-family: inherit;
+    border-bottom: #081A2E;
+    padding: 0.5rem 1rem;
+    /* background: #ECEFF1; */
+    font-size: 1rem;
+}
+input[]
 
 /* ................footer............. */
 
