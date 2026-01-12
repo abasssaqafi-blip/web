@@ -899,7 +899,7 @@ nav img{
 .contact-form form{
     display: flex;
     flex-wrap: wrap;
-    gap: 2%;
+    gap: 1%;
 }
 .contact-form h3{
     color: #D2FF33;
@@ -908,7 +908,7 @@ nav img{
 }
 input {
     display: inline-block;
-    width: 48%;
+    width: 49%;
     height: 3rem;
     outline-style: none;
     border: none;
@@ -919,7 +919,7 @@ input {
     margin-bottom: 1rem;
 }
 .Subject{
-    width: 98%;
+    width: 99%;
 }
 .comment{
     height: 10rem;
