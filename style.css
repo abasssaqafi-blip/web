@@ -226,6 +226,9 @@ nav img{
     .tech-text1{
         font-size: 3.6rem;
     }
+    .creativity p{
+        line-height: 3rem;
+    }
     
     .stunning{
         width: 100%;
@@ -847,7 +850,7 @@ nav img{
 
 /* ................contact us page............. */
 #contact-page{
-    background-image: linear-gradient(to bottom right,#000102, #729101  );
+    background-image: linear-gradient(to bottom right,#100404, #516700  );
     background-repeat: no-repeat;
     background-size: cover;
     height: 50vh;
@@ -859,8 +862,7 @@ nav img{
 }
 .contact-cont{
     background: #ECEFF1;
-    padding: 0 6%;
-    height: 80vh;
+    padding: 4rem 6%;
     display: flex;
     gap: 2rem;
     justify-content: center;
@@ -868,36 +870,92 @@ nav img{
 }
 .ready-to{
     color: #081A2E;
-    width: 40%;
+    width: 45%;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1rem 0;
+}
+.ready-to img{
+    width: 80%;
 }
 .ready-to h3{
-    font-size: 2rem;
+    font-size: 2.3rem;
     margin-bottom: 1rem;
 }
-.contact-form{
-    width: 60%;
+.ready-to h3 span{
+    color: #729101;
 }
+.contact-form{
+    width: 55%;
+    margin-left: 4rem;
+    background-color: #081A2E;
+    padding: 2rem 3% 0;
+    border-radius: 10px;
+}
+
 .contact-form form{
     display: flex;
-    flex-direction: column;
-    
+    flex-wrap: wrap;
+    gap: 2%;
+}
+.contact-form h3{
+    color: #D2FF33;
+    font-size: 1.7rem;
+    margin: 1rem 0;
 }
 input {
     display: inline-block;
-    width: 50%;
-    height: 2.5rem;
+    width: 48%;
+    height: 3rem;
     outline-style: none;
     border: none;
     font-family: inherit;
     border-bottom: #081A2E;
-    padding: 0.5rem 1rem;
-    /* background: #ECEFF1; */
+    padding: 1rem;
     font-size: 1rem;
+    margin-bottom: 1rem;
 }
+.Subject{
+    width: 98%;
+}
+.comment{
+    height: 10rem;
+    padding: 0 0 7rem 0.8rem;
+}
+.form-btn{
+    margin-top: -0.1rem;
+    color: #081A2E;
+    font-size: 1.5rem;
+    border-radius: 0;
+    padding: 0.5rem 1rem;
+}   
 
+@media (min-width:300px) and (max-width:900px){
+    .contact-cont{
+        flex-wrap: wrap;
+    }
+    .ready-to{
+        width: 100%;
+    }
+    .ready-to img{
+        width: 100%;
+    }
+    .contact-form{
+        width: 100%;
+        margin-left: 0;
+    }
+    input{
+        width: 100%;
+    }
+    .Subject{
+        width: 100%;
+    }
+    
+
+}
 
 /* ................footer............. */
 
@@ -927,7 +985,7 @@ footer{
     justify-content: center;
     margin-right: 1rem;
     color: #ECEFF1;
-    padding-bottom: 25px;
+    padding-bottom: 1.2rem;
     gap: 10px;
 }
 
@@ -952,7 +1010,7 @@ footer{
 }
 
 .footer-p{
-    padding-top: 0.7rem;
+    padding-top: 0.6rem;
     display: flex;
     flex-direction: column;
     gap: 1rem;
@@ -975,17 +1033,18 @@ footer{
     }
     .footer-cont1{
         width: 100%;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
     }
     .footer-cont{
-        width: 30%;
-        font-size: 0.8rem;
+        width: 100%;
+        font-size: 0.9rem;
+        margin-bottom: 3rem;
     }
     .container{
         font-size: 0.77rem;
         font-weight: 300;
+    }
+    .footer-p{
+        padding-top: 0.1rem;
     }
 }
 
