@@ -2,14 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: ubuntu, sans-serif;
-     
+    font-family: helvetica, sans-serif;   
 }
-
 body{
     background: #081A2E;
 }
-
+p{
+    font-family: poppins;
+}
 a{
     text-decoration: none;
 }
@@ -23,7 +23,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 40px 5%;
+    padding: 40px 6%;
     height: 120px;
     background: #081A2E;
     background-image: url(news.png);
@@ -35,7 +35,7 @@ nav{
 
 
 nav img{
-    width: 9rem;
+    width: 14rem;
 }
 
 .navbar{
@@ -54,32 +54,25 @@ nav img{
     display: flex;
     gap: 30px;    
 }
-
 .navbar ul li{
-    font-size: 18px;
+    font-size: 1rem;
     color: #fff;
 }
-
 .navbar ul li a{
     text-decoration: none;
     color: #fff;
     transition: all 0.8s ease;
 }
-
 .navbar ul li a:hover{
     color: #D2FF33;
 }
-/* .navbar ul li a:visited{
-    color: #D2FF33;
-} */
-
 .nav-btn{
-    width: 150px;
+    width: 10rem;
     background-color:#D2FF33;
     color: #081A2E;
     border: none;
     border-radius: 30px;
-    font-size: 16px;
+    font-size: 1.1rem;
     font-weight: 500;
     margin-left: 30px;
     margin-right: -10px;
@@ -89,7 +82,7 @@ nav img{
 
 .nav-btn:hover{
     background-color: #fff;
-    box-shadow:  grey 0px 0px 2px 2px;
+    box-shadow:  grey 0px 0px 1px 1px;
     transform: scale(1.1);
 }
 
@@ -143,34 +136,34 @@ nav img{
 
 .creativity p{
     display: block;
-    line-height: 4rem;
+    line-height: 4.5rem;
     margin-bottom: 1rem;
 }
 
 .left-hero p{
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     color: #fff;
 }
 
 .structure{
-    font-size: 4rem;
-    font-weight: 500;
+    font-size: 3.8rem;
+    font-weight: 600;
 }
 
 .tech-text{
     color: #D2FF33;
     font-weight: 800;
-    font-size: 5rem;
+    font-size: 4.5rem;
 }
 
 .tech-text1 {
     color: #D2FF33;
     font-weight: 800;
-    font-size: 5rem;
+    font-size: 4.5rem;
 }
 
 .stunning{
-    width: 47%;
+    width: 40%;
 }
 
 .creativity{
@@ -179,17 +172,18 @@ nav img{
 }
 
 .creativity .creat-p{
-    line-height: 1.6rem;
+    font-size: 1.4rem;
+    line-height: 2rem;
     animation: slide 1.8s 1 reverse;
 }
 .hero-btn{
     width: auto;
     height: auto;
-    font-size: 1.6rem;
+    font-size: 2rem;
     color: #081A2E;
     background-color: #fff;
     border-radius: 25px;
-    padding: 0.5rem;
+    padding: 0.8rem;
     margin: 3rem 0;
     transition: all 1s ease;
     border: none;
@@ -198,7 +192,7 @@ nav img{
 .hero-btn:hover{
     background-color: #D2FF33;
     color: #081A2E;
-    box-shadow:  grey 0px 0px 2px 2px;
+    box-shadow:  grey 0px 0px 1px 1px;
     transform: scale(1.1);
 }
 
@@ -240,7 +234,7 @@ nav img{
 #what-we-do{
     width: 100%;
     height: auto;
-    color: #fff;
+    color: #ffffff;
     padding: 5rem 6% 2rem;      
 }
 
@@ -248,16 +242,17 @@ nav img{
     width: 37%;
 }
 
-#what-we-do p{
+.what-we-do-pa p{
     font-size: 1rem;
-    font-weight: 350;
-    line-height: 1.4rem;
+    font-weight: 400;
+    line-height: 1.6rem;
 }
 
 #what-we-do h3{
-    font-size: 2.4rem;
+    font-size: 2rem;
     margin-bottom: 14px;
-    font-weight: 500;
+    font-weight: 600;
+    margin-bottom: 2rem;
 }
 
 #what-we-do h3 span{
@@ -269,16 +264,18 @@ nav img{
     display: flex;
     gap: 2%;
 }
-
 .we-do-box{
     width: 33%;
     height: 18rem;
-    background: #ECEFF1;
+    background: #ffffff;
     border-radius: 18px;
     margin-top: 2rem;
     padding: 2rem 4%; 
     cursor: pointer;
     transition: all 1s ease; 
+}
+.web-dev{
+    background-color: #D2FF33;
 }
 .graphics{
     background-color: #D2FF33;
@@ -295,10 +292,13 @@ nav img{
     width: 2.5rem;
     height: 2.5rem;
 }
+.programing-background{
+    background-color: #ffffff;
+}
 .we-do-box:hover{
-    border: 2px solid #D2FF33;
+    border: 1px solid #D2FF33;
     background-color: #081A2E;
-    box-shadow: grey 0px 0px 2px 2px;
+    box-shadow: grey 0px 0px 1px 1px;
     transform: scale(1.1);
 }
 
@@ -307,20 +307,20 @@ nav img{
 }
 
 .we-do-box:hover p{
-    color: #fff;
+    color: #ffffff;
 }
 
 .we-do-box h4{
     font-size: 1.5rem;
     margin-bottom: 15px;
-    color: #081A2E;
+    color: #000000;
 }
 
 .we-do-box p{
     font-size: 1rem;
-    font-weight: 500;
-    color: #475569;
-    line-height: 1.4rem;
+    font-weight: 400;
+    color: #000000;
+    line-height: 1.6rem;
 }
 
 /* .......................services page.......................... */
@@ -442,14 +442,14 @@ nav img{
 #about-us{
     display: flex;
     height: 100vh;
-    background: #ECEFF1;
-    padding: 50px 6%;
+    background: #ffffff;
+    padding: 3rem 6%;
 
 }
 
 .about-us-right{
     width: 46%;
-    padding-top: 85px;
+    padding-top: 3rem;
 }
 
 .about-us-right h4{
@@ -461,7 +461,8 @@ nav img{
 .about-us-right p{
     font-size: 1.2rem;
     color: #0a0a0a;
-    line-height: 35px;
+    line-height: 2.2rem;
+    font-weight: 400;
 }
 .about-us-left{
     width: 55%;
@@ -565,7 +566,7 @@ nav img{
 .approach-box:hover{
     border: 2px solid #D2FF33;
     background-color: #081A2E;
-    box-shadow: grey 0px 0px 2px 2px;
+    box-shadow: grey 0px 0px 1px 1px;
     transform: scale(1.1);
     color: #ECEFF1;
 }
@@ -644,7 +645,7 @@ nav img{
     background-image: linear-gradient(to bottom right,#000102, #729101  );
     background-repeat: no-repeat;
     background-size: cover;
-    margin-top: 120px;
+    margin-top: 12rem;
     padding: 8rem 6%;
     color: #Dfff;
     display: flex;
@@ -661,19 +662,19 @@ nav img{
 }
 
 .get-know-top h2{
-    font-size: 3.4rem;
+    font-size: 3rem;
     margin-bottom: 20px;
     color: #fff;
-    line-height: 3.7rem;
+    line-height: 4rem;
 }
 .get-know-top h2 span{
     color: #D2FF33;
 }
 
 .get-know-top p{
-    font-size: 1rem;
+    font-size: 1.1rem;
     color: #fff;
-    line-height: 1.4rem;
+    line-height: 1.8rem;
 }
 
 .get-know-bottom{
@@ -687,7 +688,7 @@ nav img{
     height: auto;
     padding: 1rem;
     padding-bottom: 1rem;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
 }
 
 
@@ -720,8 +721,8 @@ nav img{
 
 #our-portfolio{
     width: 100%;
-    background: #ECEFF1;
-    padding: 50px 6% 20px 6%;
+    background: #ffffff;
+    padding: 3rem 6% 2rem 6%;
 }
 
 #our-portfolio h5{
@@ -731,7 +732,7 @@ nav img{
 
 .portfolio{
     width: 100%;
-    background-color: #ECEFF1;
+    background-color: #ffffff;
     padding: 15px 6%;
     display: flex;
     gap: 2%;
@@ -749,7 +750,7 @@ nav img{
 }
 
 .portfolio-cont:hover{
-    box-shadow: grey 0px 0px 2px 2px;
+    box-shadow: grey 0px 0px 1px 1px;
     transform: scale(1.1);
 }
 
@@ -763,7 +764,7 @@ nav img{
 .vid-cont{
     width: 100%;
     height: 60vh;
-    background-color: #ECEFF1;
+    background-color: #ffffff;
     display: flex;
     gap: 2%;
     padding: 30px 6% ;
@@ -775,19 +776,19 @@ nav img{
 }
 
 .vid-holder{
-    border: 2px solid #081A2E;
+    border: 1px solid #081A2E;
     background-color: #081A2E;
     color: #fff;
     transition: all 1.4s ease;
 }
 
 .vid-holder:hover{
-    box-shadow: grey 2px 2px 7px 7px;
+    box-shadow: grey 1px 1px 1px 1px;
     transform: scale(1.1);
 }
 
 .portfolio-btn{
-    background-color: #ECEFF1;
+    background-color: #ffffff;
     width: 100%;
     padding: 0 6%;
     display: flex;
@@ -800,7 +801,7 @@ nav img{
     transition: all 1s ease;
 }
 .port-btn:hover{
-    box-shadow: grey 2px 2px 7px 7px;
+    box-shadow: grey 1px 1px 1px 1px;
     transform: scale(1.1);
 }
 .our-portfolio{
@@ -813,7 +814,7 @@ nav img{
     padding: 4rem 6%;
     gap: 0.6%;
     flex-wrap: wrap;
-    background: #ECEFF1;
+    background: #ffffff;
 }
 .port-para{
     width: 60%;
@@ -980,7 +981,7 @@ input {
 footer{
     width: 100%;
     height: auto;
-    padding: 25px 6%;
+    padding:2rem 6%;
     display: flex;
     gap: 3%;
     margin-bottom: 1rem;
@@ -990,26 +991,28 @@ footer{
     width: 20%;
     display: flex;
     flex-direction: column;
-    color: #ECEFF1;
+    color: #ffffff;
     gap: 1rem;
-    font-weight: 350;
+    font-size: 1.1em;
+    font-weight: 400;
 }
 
 .footer-cont1{
     width: 35%;
     line-height: 25px;
     display: flex;
-    font-weight: 350;
+    font-size: 1.1em;
+    font-weight: 400;
     flex-direction: column;
     justify-content: center;
     margin-right: 1rem;
-    color: #ECEFF1;
+    color: #ffffff;
     padding-bottom: 1.2rem;
-    gap: 10px;
+    gap: 1rem;
 }
 
 .footer-cont1 img{
-    width: 9rem;
+    width: 12rem;
 }
 
 .footer-cont h3 a{
@@ -1017,11 +1020,11 @@ footer{
 }
 
 .footer-cont h3 a:hover{
-    color: #ECEFF1;
+    color: #ffffff;
 }
 
 .footer-cont p a{
-    color: #ECEFF1;
+    color: #ffffff;
 }
 
 .footer-cont p a:hover{
@@ -1039,10 +1042,13 @@ footer{
     width: 100%;
     height: 6vh;
     padding: 0 6%;
-    color: #ECEFF1;
+    color: #ffffff;
     display: flex;
     flex-direction: column;
     text-align: center;
+}
+.container span{
+    color: #D2FF33;
 }
 
 @media (min-width:300px) and (max-width:900px){
