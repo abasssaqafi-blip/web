@@ -76,6 +76,9 @@ nav img{
     padding: 6px;
     transition: all 1s ease;
 }
+.nav-btn a{
+    color: black;
+}
 
 .nav-btn:hover{
     background-color: #fff;
