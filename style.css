@@ -24,7 +24,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     padding: 40px 6%;
-    height: 120px;
+    height: 5.5rem;
     background-image: url(screen3.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -32,7 +32,7 @@ nav{
 
 
 nav img{
-    width: 14rem;
+    width: 13rem;
 }
 
 .navbar{
@@ -41,8 +41,8 @@ nav img{
     justify-content: center;
     border: 1px solid #D2FF33;
     border-radius: 30px;
-    height: 50px;
-    padding: 20px;
+    height: 1.5rem;
+    padding: 1.3rem;
    
 }
 
@@ -73,7 +73,7 @@ nav img{
     font-weight: 500;
     margin-left: 30px;
     margin-right: -10px;
-    padding: 6px;
+    padding: 6px 4px;
     transition: all 1s ease;
 }
 .nav-btn a{
@@ -135,7 +135,6 @@ nav img{
 
 .left-hero {
     width: 100%;
-    padding-top: 6rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -173,7 +172,7 @@ nav img{
 
 .creativity{
     width: 100%;
-    margin-bottom: 1.3rem;
+    margin-bottom: 0.5rem;
     animation: slide 1.4s 1 reverse;
 }
 
@@ -185,21 +184,28 @@ nav img{
 .hero-btn{
     width: auto;
     height: auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
     font-size: 2rem;
     color: #081A2E;
     background-color: #fff;
     border-radius: 25px;
-    padding: 0.6rem;
-    margin: 3rem 0;
+    padding: 0.6rem 0.8rem;
+    margin: 1rem 0;
     transition: all 1s ease;
     border: none;
 }
 
 .hero-btn:hover{
     background-color: #D2FF33;
-    color: #081A2E;
+    color: #000000;
     box-shadow:  grey 0px 0px 1px 1px;
     transform: scale(1.1);
+}
+.work-w a{
+    color: #000000;
 }
 
 
