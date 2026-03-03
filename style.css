@@ -5,7 +5,7 @@
     font-family: helvetica, sans-serif;   
 }
 body{
-    background: #081A2E;
+    background:#081A2E; ;
 }
 p{
     font-family: poppins;
@@ -25,12 +25,9 @@ nav{
     align-items: center;
     padding: 40px 6%;
     height: 120px;
-    background: #081A2E;
-    background-image: url(news.png);
+    background-image: url(screen3.png);
     background-repeat: no-repeat;
     background-size: cover;
-    /* position: sticky;
-    top: 0; */
 }
 
 
@@ -67,7 +64,7 @@ nav img{
     color: #D2FF33;
 }
 .nav-btn{
-    width: 10rem;
+    width: 11rem;
     background-color:#D2FF33;
     color: #081A2E;
     border: none;
@@ -95,7 +92,7 @@ nav img{
     background-image: none;
 }
 .img1{
-    width: 8rem;
+    width: 9rem;
 }
 
 .img2{
@@ -122,16 +119,25 @@ nav img{
 
 #hero-container{
     width: 100%;
-    padding: 140px 6% 40px ;
+    height: 50rem;
     display: flex;
-    height: 100vh;
-    background-image: url(news.png);
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 4rem 6%;
+    background-image: url(screen3.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .left-hero {
-    width: 100%
+    width: 100%;
+    padding-top: 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
 }
 
 .creativity p{
@@ -162,17 +168,14 @@ nav img{
     font-size: 4.5rem;
 }
 
-.stunning{
-    width: 40%;
-}
-
 .creativity{
+    width: 100%;
     margin-bottom: 1.3rem;
     animation: slide 1.4s 1 reverse;
 }
 
 .creativity .creat-p{
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     line-height: 2rem;
     animation: slide 1.8s 1 reverse;
 }
@@ -183,7 +186,7 @@ nav img{
     color: #081A2E;
     background-color: #fff;
     border-radius: 25px;
-    padding: 0.8rem;
+    padding: 0.6rem;
     margin: 3rem 0;
     transition: all 1s ease;
     border: none;
@@ -195,6 +198,7 @@ nav img{
     box-shadow:  grey 0px 0px 1px 1px;
     transform: scale(1.1);
 }
+
 
 
 @media (min-width:300px) and (max-width:900px){
@@ -209,16 +213,19 @@ nav img{
         background-image: url(heromobile2.png);
         background-size: cover;
         background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+        text-align: center;
 
     }
     .structure{
-        font-size: 3.1rem;
+        font-size: 2.3rem;
     }
     .tech-text{
-        font-size: 3.6rem;
+        font-size: 2.7rem;
     }
     .tech-text1{
-        font-size: 3.6rem;
+        font-size: 2.8rem;
     }
     .creativity p{
         line-height: 3rem;
@@ -226,6 +233,10 @@ nav img{
     
     .stunning{
         width: 100%;
+    }
+    .creativity .creat-p{
+        font-size: 1.1rem;
+        line-height: 1.5rem;
     }
 }
 
@@ -235,7 +246,7 @@ nav img{
     width: 100%;
     height: auto;
     color: #ffffff;
-    padding: 5rem 6% 2rem;      
+    padding: 5rem 6% 2rem;     
 }
 
 .what-we-do-pa{
@@ -249,7 +260,7 @@ nav img{
 }
 
 #what-we-do h3{
-    font-size: 2rem;
+    font-size: 1.4rem;
     margin-bottom: 14px;
     font-weight: 600;
     margin-bottom: 2rem;
