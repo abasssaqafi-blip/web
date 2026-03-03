@@ -93,11 +93,12 @@ nav img{
     display: flex;
     padding: 20px 6%;
     justify-content: space-between;
+    align-items: center;
     display: none;
     background-image: none;
 }
 .img1{
-    width: 9rem;
+    width: 3rem;
 }
 
 .img2{
@@ -116,7 +117,7 @@ nav img{
     }
     .nav-mobile{
         display:inline-flex;
-        background-color: #ECEFF1;
+        background-color: #ffffff;
     } 
 }
 
@@ -172,7 +173,7 @@ nav img{
 }
 
 .creativity{
-    width: 100%;
+    width: 40%;
     color: #ffffff;
     margin-bottom: 0.5rem;
     animation: fadeIn 2s 1 ease-in-out;
@@ -225,9 +226,8 @@ nav img{
     #hero-container{
         flex-wrap: wrap;
         flex-shrink: inherit;
-        margin-top: -80px;
         height: auto;
-        background-image: url(heromobile2.png);
+        background-image: url(screen3.png);
         background-size: cover;
         background-repeat: no-repeat;
         display: flex;
@@ -253,6 +253,9 @@ nav img{
     .creativity .creat-p{
         font-size: 1.1rem;
         line-height: 1.5rem;
+    }
+    .creativity{
+        width: 100%;
     }
 }
 
