@@ -23,8 +23,8 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 40px 6%;
-    height: 5.5rem;
+    padding: 2.5rem 6%;
+    height: 5rem;
     background-image: url(screen3.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -71,8 +71,8 @@ nav img{
     border-radius: 30px;
     font-size: 1.1rem;
     font-weight: 500;
-    margin-left: 30px;
-    margin-right: -10px;
+    margin-left: 2rem;
+    margin-right: -0.7rem;
     padding: 6px 4px;
     transition: all 1s ease;
 }
@@ -140,6 +140,10 @@ nav img{
     align-items: center;
     text-align: center;
     justify-content: center;
+}
+
+.left-hero a{
+    color: #000000;
 }
 
 .creativity p{
