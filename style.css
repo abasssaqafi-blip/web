@@ -604,7 +604,7 @@ nav img{
 
 }
 
-@keyframes slide{
+/* @keyframes slide{
     from{
         transform: translateX(0px);
     }
@@ -612,8 +612,7 @@ nav img{
     to{
         transform: translateX(-700px);
     }
-
-}
+} */
 
 @media (min-width:300px) and (max-width:900px){
     #about-us{
